@@ -18,7 +18,7 @@ def change_mult_div_char(expr):
 	return expr
 
 	
-@app.route("/calculate/calculate", methods=['POST'])
+@app.route("/", methods=['POST'])
 def calculator():
 
 	expr = request.get_json()['expr']
